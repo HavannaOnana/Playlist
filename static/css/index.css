@@ -1,0 +1,46 @@
+@font-face {
+  font-family: without;
+  src: url(/fonts/WithoutAltSans-Black.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .links {
+  display: flex;
+  width: 50vw;
+}
+
+.links a {
+  margin-left: 4vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-decoration: none;
+  color: white;
+  transition: color 1s ease;
+}
+
+.links a:hover {
+  color: gold;
+}
+
+nav .logo {
+  font-family: without;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+nav .logo ion-icon {
+  margin-left: 2vw;
+}/*# sourceMappingURL=index.css.map */
