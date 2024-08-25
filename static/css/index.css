@@ -9,6 +9,17 @@ body {
   color: black;
 }
 
+.photoshuffle {
+  width: 100vw;
+  background-image: url(/static/images/doja\ cat.png);
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 nav {
   display: flex;
   flex-direction: row;
