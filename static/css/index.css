@@ -5,7 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: beige;
+  color: black;
 }
 
 nav {
@@ -26,7 +27,7 @@ nav .links {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
   text-decoration: none;
-  color: white;
+  color: black;
   transition: color 1s ease;
 }
 
@@ -36,7 +37,6 @@ nav .links {
 
 nav .logo {
   font-family: without;
-  color: white;
   display: flex;
   align-items: center;
 }
