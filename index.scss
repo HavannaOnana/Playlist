@@ -9,19 +9,16 @@ body{
     margin: 0;
     padding: 0;
     background-color: beige;
-    color: black;
 }
 
 //css for the photo shuffle
 .photoshuffle{
     width: 100vw;
-    background-image: url(/static/images/doja\ cat.png);
+    background-image: url(/static/images/5.png);
     background-size: cover; /* Ensure the image covers the entire div */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Ensure the image covers the entire div */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
 }
 
 nav{
