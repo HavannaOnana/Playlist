@@ -6,11 +6,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: beige;
+  color: wheat;
 }
 
 .photoshuffle {
   width: 100vw;
-  background-image: url(/static/images/5.png);
+  background-image: url(/static/images/4.png);
   background-size: cover; /* Ensure the image covers the entire div */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Ensure the image covers the entire div */
@@ -35,7 +36,7 @@ nav .links {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
   text-decoration: none;
-  color: black;
+  color: wheat;
   transition: color 1s ease;
 }
 
