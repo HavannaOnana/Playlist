@@ -11,7 +11,7 @@ body {
 
 .photoshuffle {
   width: 100vw;
-  background-image: url(/static/images/4.png);
+  background-image: url(/static/images/1.png);
   background-size: cover; /* Ensure the image covers the entire div */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Ensure the image covers the entire div */
@@ -29,20 +29,7 @@ nav {
 nav .links {
   display: flex;
   width: 50vw;
-}
-
-.links a {
-  margin-left: 4vw;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
-  font-size: small;
-  text-decoration: none;
-  color: white;
-  transition: color 1s ease;
-}
-
-.links a:hover {
-  color: gold;
+  font-family: Verdana;
 }
 
 nav .logo {
