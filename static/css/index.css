@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: beige;
-  color: wheat;
+  color: white;
 }
 
 .photoshuffle {
@@ -34,9 +34,10 @@ nav .links {
 .links a {
   margin-left: 4vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
   font-size: small;
   text-decoration: none;
-  color: wheat;
+  color: white;
   transition: color 1s ease;
 }
 
