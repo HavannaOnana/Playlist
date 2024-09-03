@@ -146,8 +146,22 @@ nav .logo {
 
 .songs {
   width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vh;
 }
 
 .songplaylist img {
   width: 16vw;
+  margin-left: 2vw;
+}
+
+.songplaylist {
+  width: 100vw;
+}
+
+.songplaylist div {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=index.css.map */
