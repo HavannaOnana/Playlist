@@ -154,14 +154,20 @@ nav .logo {
 
 .songplaylist img {
   width: 16vw;
-  margin-left: 2vw;
 }
 
 .songplaylist {
   width: 100vw;
+  background-color: aliceblue;
 }
 
 .songplaylist div {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2vh;
+}
+
+.description {
+  width: 100vw;
 }/*# sourceMappingURL=index.css.map */
