@@ -175,12 +175,20 @@ nav .logo{
 .songplaylist div{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 2vh;
 }
 
 .description{
     width: 100vw;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    
     
 }
 
+.description img{
+    width: 30vw;
+}
