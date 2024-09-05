@@ -48,40 +48,44 @@
     <!--songplaylist-->
     <div class="songplaylist">
         <div>
-          <img src="/static/images/asake.png" alt="">
-          <img src="/static/images/dojacat.png" alt="">
+          <img src="/static/images/asake.png" alt="" id="asake">
+          <img src="/static/images/dojacat.png" alt="" id="dojacat">
         </div>
         <div>
-          <img src="/static/images/partynextdoor.png" alt="">
-          <img src="/static/images/postmalone.png" alt="">
+          <img src="/static/images/partynextdoor.png" alt="" id="partynextdoor">
+          <img src="/static/images/postmalone.png" alt="" id="postmalone">
         </div>
         <div>
-          <img src="/static/images/sujal.png" alt="">
-          <img src="/static/images/winny.png" alt="">
+          <img src="/static/images/sujal.png" alt="" id="sujal">
+          <img src="/static/images/winny.png" alt="" id="winny">
         </div>
     </div>
 
     <!--description-->
     <div class="description">
-       <img src="/static/images/asake.png" alt="">
+       <img src="/static/images/dojacat.png" alt="">
 
-       <div class="info">
-        <h1>NAME</h1>
-        <p>Info</p>
-       </div>
+       <h1 class="artist_name">-</h1>
        <!--audio-player-->
-       <div class="audio-player">
-        <audio id="audio" src=""></audio>
-
-        <!--costum controls-->
-        <div class="controls">
-            <button id="playPauseBtn">Play</button>
-            <button id="stopBtn">Stop</button>
-        </div>
-
+       <div class="audio_player">
+        
+          <audio id="myAudio" controls>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        
+            <div class="buttons">
+              <button onclick="document.getElementById('myAudio').play()">Play</button>
+              <button onclick="document.getElementById('myAudio').pause()">Pause</button>
+              <button onclick="document.getElementById('myAudio').volume+=0.1">Volume Up</button>
+              <button onclick="document.getElementById('myAudio').volume-=0.1">Volume Down</button>
+            </div>
        </div>
 
+       <p class="description_text">Info</p>
+       
     </div>
+
 
    </div>
 

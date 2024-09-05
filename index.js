@@ -79,3 +79,15 @@ let interval = setInterval(()=>{
         index = 0;
     }
 },7000)
+
+//code for the javascript code for the songs and playlist
+let SongPlaylist = document.querySelector(".songplaylist");
+
+
+
+
+
+
+
+
+
