@@ -136,7 +136,6 @@ nav .logo {
 
 .line {
   color: white;
-  background-color: tomato;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -154,11 +153,18 @@ nav .logo {
 
 .songplaylist img {
   width: 16vw;
+  border: solid 1px white;
+  filter: brightness(0.7);
+  transition: all 1s ease-in-out;
+}
+
+.songplaylist img:hover {
+  filter: brightness(1);
 }
 
 .songplaylist {
   width: 100vw;
-  background-color: tomato;
+  padding-top: 2vh;
 }
 
 .songplaylist div {
@@ -177,5 +183,5 @@ nav .logo {
 }
 
 .description img {
-  width: 30vw;
+  width: 25vw;
 }/*# sourceMappingURL=index.css.map */
